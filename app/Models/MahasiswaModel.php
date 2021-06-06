@@ -14,7 +14,7 @@ class MahasiswaModel extends Model
 	protected $returnType           = 'array';
 	protected $useSoftDeletes       = false;
 	protected $protectFields        = true;
-	protected $allowedFields        = [];
+	protected $allowedFields        = ['id', 'nim', 'nama_mahasiswa', 'prodi'];
 
 	// Dates
 	protected $useTimestamps        = false;
