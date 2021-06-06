@@ -35,6 +35,8 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'MahasiswaController::index');
 $routes->post('store', 'MahasiswaController::store');
 $routes->get('delete/(:num)', 'MahasiswaController::delete/$1');
+$routes->get('edit/(:num)', 'MahasiswaController::edit/$1');
+$routes->post('update/(:num)', 'MahasiswaController::update/$1');
 
 /*
  * --------------------------------------------------------------------

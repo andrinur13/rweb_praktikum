@@ -39,7 +39,7 @@
                                 <td> <?= $mhs['nim'] ?> </td>
                                 <td> <?= $mhs['nama_mahasiswa'] ?> </td>
                                 <td> <?= $mhs['prodi'] ?> </td>
-                                <td> <a href="/delete/<?= $mhs['id']; ?>" class="badge badge-danger">hapus</a> <a class="badge badge-primary">edit</a> </td>
+                                <td> <a href="/delete/<?= $mhs['id']; ?>" class="badge badge-danger">hapus</a> <a href="/edit/<?= $mhs['id']; ?>" class="badge badge-primary">edit</a> </td>
                             </tr>
                             <?php $i++; ?>
                         <?php endforeach; ?>
